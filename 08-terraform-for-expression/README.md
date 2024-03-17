@@ -18,4 +18,4 @@
 ##  Demo use case
   - availability_zone = var.availability_zones[count.index] -> This fetches each availability zone from the list variables.
   - availability_zone = local.azs[count.index] -> variables here is taken as AZs suffix like 'a','b','c'.
-    inside locals using for expression it is concatenated with region variable and get zone as 'us-east-1a','us-east-1b','us-east-1c'
+    inside locals using for expression it is concatenated with region variable and get zone as 'us-east-1a','us-east-1b','us-east-1a'
