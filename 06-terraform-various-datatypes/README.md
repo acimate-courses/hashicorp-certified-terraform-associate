@@ -22,4 +22,8 @@
   - bool (block_public_acls_config , block_public_policy_config, ignore_public_acls_config, restrict_public_buckets_config)
   - list (bucket_names is a list of string)
   - map (common_tag_map is a map of string and bu_specific_tag_map is map of object)
-
+## Demo use case
+  - bucket_names is is list. 6 Buckets are created in single run using count.
+  - common_tag_map - showed how to use map(string). S3 bucket common tags are read form here.
+  - bu_specific_tag_map - is s map(object). S3 bucket specific to business unit(bu) tabs are read from here.
+  - bool variables relared to public access block are set.
