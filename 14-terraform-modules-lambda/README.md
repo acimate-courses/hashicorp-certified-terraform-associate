@@ -13,6 +13,8 @@
   
 
 ## Use Case demonstration
-  - Create a Lambda module.  
+  - Create a Lambda module. 
+  - If you want to create the lambda package and download from s3 bucket or other https resurces
+  - use the below pattern - https://github.com/terraform-aws-modules/terraform-aws-eventbridge/blob/master/examples/with-lambda-scheduling/main.tf
   - Call it from root module
 
